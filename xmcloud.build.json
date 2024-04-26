@@ -1,30 +1,39 @@
 {
-    "renderingHosts": {
-      "xmcloudpreview": {
-        "path": "./src/sxastarter",
-        "nodeVersion": "20.10.0",
-        "jssDeploymentSecret": "110F1C44A496B45478640DD36F80C18C9",
-        "enabled": true,
-        "type": "sxa",
-        "buildCommand": "build",
-        "runCommand": "next:start"
-      }
-    },
-    "postActions": {
-        "actions":{
-          "warmUpCm": {
-            "urls": [
-              "/sitecore/shell",
-              "/sitecore/shell/Applications/Content%20Editor.aspx?sc_bw=1",
-              "/sitecore/client/Applications/Launchpad"
-            ]
-          },
-          "populateSchema": {
-            "indexNames": []
-          },
-          "reindex": {
-            "indexNames": []
-          }
-        }
+  "renderingHosts": {
+    "xmcloudpreview": {
+      "path": "./src/sxastarter",
+      "nodeVersion": "20.10.0",
+      "jssDeploymentSecret": "110F1C44A496B45478640DD36F80C18C9",
+      "enabled": true,
+      "type": "sxa",
+      "buildCommand": "build",
+      "runCommand": "next:start"
     }
+  },
+  "transforms": [
+    {
+      "xdtPath": "app_data/xdts/Web.config.xdt",
+      "targetPath": "/Web.config"
+    }
+  ],
+  "postActions": {
+    "actions": {
+      "warmUpCm": {
+        "urls": [
+          "/sitecore/shell",
+          "/sitecore/shell/Applications/Content%20Editor.aspx?sc_bw=1",
+          "/sitecore/client/Applications/Launchpad"
+        ]
+      },
+      "scsModules": {
+        "modules": [ "Siteimprove" ]
+      },
+      "populateSchema": {
+        "indexNames": []
+      },
+      "reindex": {
+        "indexNames": []
+      }
+    }
+  }
 }

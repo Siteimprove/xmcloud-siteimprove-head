@@ -1,0 +1,50 @@
+{
+  "$schema": "../.sitecore/schemas/ModuleFile.schema.json",
+  "namespace": "Siteimprove",
+  "items": {
+    "includes": [
+      {
+        "name": "Siteimprove System Settings",
+        "path": "/sitecore/system/Modules/Siteimprove",
+        "database": "master",
+        "allowedPushOperations": "CreateOnly"
+      },
+      {
+        "name": "Siteimprove Templates",
+        "path": "/sitecore/templates/System/Siteimprove Module",
+        "database": "master",
+        "allowedPushOperations": "CreateOnly"
+      },
+      {
+        "name": "Siteimprove CE Ribbon Chunks",
+        "path": "/sitecore/content/Applications/Content Editor/Ribbons/Chunks/Siteimprove",
+        "database": "core",
+        "allowedPushOperations": "CreateOnly"
+      },
+      {
+        "name": "Siteimprove CE Ribbon Strips",
+        "path": "/sitecore/content/Applications/Content Editor/Ribbons/Strips/Siteimprove",
+        "database": "core",
+        "allowedPushOperations": "CreateOnly"
+      },
+      {
+        "name": "Siteimprove CE Ribbon Ribbons",
+        "path": "/sitecore/content/Applications/Content Editor/Ribbons/Ribbons/Default/Siteimprove",
+        "database": "core",
+        "allowedPushOperations": "CreateOnly"
+      },
+      {
+        "name": "Siteimprove WE Ribbon",
+        "path": "/sitecore/content/Applications/WebEdit/Ribbons/WebEdit/Siteimprove",
+        "database": "core",
+        "allowedPushOperations": "CreateOnly"
+      }
+    ]
+  },
+  "roles": [
+      {
+        "domain": "sitecore",
+        "pattern": "Siteimprove Manager"
+      }
+    ]
+  }

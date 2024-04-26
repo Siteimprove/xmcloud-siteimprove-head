@@ -11,8 +11,8 @@
     <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>XmCloudSXAStarter</RootNamespace>
-    <AssemblyName>XmCloudSXAStarter</AssemblyName>
+    <RootNamespace>Siteimprove</RootNamespace>
+    <AssemblyName>Siteimprove</AssemblyName>
     <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
     <UseIISExpress>true</UseIISExpress>
     <IISExpressSSLPort />
@@ -44,6 +44,9 @@
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="Microsoft.CSharp" />
+    <Reference Include="Siteimprove">
+      <HintPath>lib\Siteimprove.dll</HintPath>
+    </Reference>
     <Reference Include="System" />
     <Reference Include="System.Data" />
     <Reference Include="System.Data.DataSetExtensions" />
@@ -57,21 +60,26 @@
     <Reference Include="System.Xml.Linq" />
   </ItemGroup>
   <ItemGroup>
-    <PackageReference Include="Sitecore.XmCloud.Kernel" />
-    <PackageReference Include="Sitecore.XmCloud.ContentSearch" />
-    <PackageReference Include="Sitecore.XmCloud.ContentSearch.Linq" />
-    <PackageReference Include="Sitecore.XmCloud.LayoutService" />
-    <PackageReference Include="Sitecore.XmCloud.Assemblies" />
+	<PackageReference Include="Sitecore.XmCloud.Kernel" />
+	<PackageReference Include="Sitecore.XmCloud.ContentSearch" />
+	<PackageReference Include="Sitecore.XmCloud.ContentSearch.Linq" />
+	<PackageReference Include="Sitecore.XmCloud.LayoutService" />
+	<PackageReference Include="Sitecore.XmCloud.Assemblies" />
     <PackageReference Include="Sitecore.Assemblies.SitecoreHeadlessServicesServer" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="App_Config\Include\Siteimprove.config" />
+    <Content Include="App_Data\xdts\Web.config.xdt" />
     <None Include="Platform.wpp.targets" />
     <None Include="Properties\PublishProfiles\Local.pubxml" />
     <None Include="README.md" />
+    <Content Include="sitecore modules\Shell\Siteimprove\Assets\Siteimprove.js" />
+    <Content Include="sitecore modules\Shell\Siteimprove\Assets\SiteimproveEECommand.js" />
+    <Content Include="sitecore\shell\Themes\Standard\Siteimprove.zip" />
     <None Include="web.config" />
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="App_Config\Include\" />
+	<Folder Include="App_Config\Include\" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
