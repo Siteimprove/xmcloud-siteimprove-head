@@ -1,0 +1,43 @@
+﻿---
+ID: "0973a565-faad-4731-a21e-3bf2510748f0"
+Parent: "e784da83-5121-4242-9278-7f081d43f202"
+Template: "76281e14-f452-4256-9245-1097e5ae64e5"
+Path: /sitecore/system/Modules/Siteimprove/Siteimprove setting/globalsite
+SharedFields:
+- ID: "6483ab30-9ff6-4a4c-93da-0a6b7cc9b04a"
+  Hint: Virtual folder
+  Value: /
+- ID: "70a2d193-1209-4561-a011-d99c76b32e46"
+  Hint: Domain
+  Value: ""
+- ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
+  Hint: __Sortorder
+  Value: 400
+- ID: "ce9a93ce-8ffc-4884-a3ed-094304728386"
+  Hint: Language
+  Value: "{AF584191-45C9-4201-8740-5409F4CF8BDD}"
+- ID: "e41a74e5-9ca4-4719-a4c8-c2c97a36c39c"
+  Hint: Start path
+  Value: ""
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20200123T152253Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\admin
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "b7dae90f-fcea-4f5a-bd03-6a3f9cc0e5cb"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\anthony_johnson@epam.com
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20240410T130242Z

@@ -1,0 +1,45 @@
+﻿---
+ID: "e784da83-5121-4242-9278-7f081d43f202"
+Parent: "84d4ed42-c437-4617-8712-aab2c47e16a2"
+Template: "523edee9-7c82-4ca6-bd2d-67fa4b1e706f"
+Path: /sitecore/system/Modules/Siteimprove/Siteimprove setting
+SharedFields:
+- ID: "318293a4-9152-4075-a474-117ddd997cda"
+  Hint: ApiUser
+  Value: 
+- ID: "641c597f-4064-49dc-9384-eb3fa9ae0a27"
+  Hint: DisableSiteimproveInEE
+  Value: 1
+- ID: "9c6106ea-7a5a-48e2-8cad-f0f693b1e2d4"
+  Hint: __Read Only
+  Value: 
+- ID: "9fd937f6-0884-4a00-8a6b-f06a25b28204"
+  Hint: Token
+  Value: 08641c1dab3346df8dcd3ed1825b3941
+- ID: "ac2b65c4-8429-4eae-b9a2-259186cf07d7"
+  Hint: UxOptIn
+  Value: 1
+- ID: "f69ec3c4-e2b2-4052-a5e6-247446ee45bc"
+  Hint: ApiKey
+  Value: 3924f07a9e9b79cf7e130c81fc67ffb6
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20170214T131835
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "e282bb42-8099-47fc-932d-20af413f84d7"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\anthony_johnson@epam.com
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20240425T154243Z
+    - ID: "dc7b73b5-c692-4595-b193-95095d22f5ac"
+      Hint: Sites
+      Value: ""

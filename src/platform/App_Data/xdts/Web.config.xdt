@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<configuration xmlns:xdt="http://schemas.microsoft.com/XML-Document-Transform">
+	<location path="sitecore">
+		<system.webServer>
+			<httpProtocol>
+				<customHeaders>
+					<add name="X-Frame-Options" xdt:Transform="Replace" xdt:Locator="Match(name)" value="sameorigin" />
+					<add name="X-Frame-Options" xdt:Transform="Replace" xdt:Locator="Match(name)" value="allow-from https://help.siteimprove.com/support/" />
+					<add name="Content-Security-Policy" xdt:Transform="Replace" xdt:Locator="Match(name)" value="default-src 'self' 'unsafe-inline' 'unsafe-eval' https://apps.sitecore.net cdnjs.cloudflare.com https://*.siteimprove.com/; img-src 'self' data: https://s.gravatar.com https://*.wp.com/cdn.auth0.com/avatars https://*.sitecorecloud.io; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com cdnjs.cloudflare.com https://*.sitecorecloud.io; style-src-elem 'self' 'unsafe-inline' https://fonts.googleapis.com cdnjs.cloudflare.com https://*.sitecorecloud.io; font-src 'self' 'unsafe-inline' https://fonts.gstatic.com cdnjs.cloudflare.com; script-src 'self' 'unsafe-eval' 'unsafe-inline' https://cdn.siteimprove.net; connect-src 'self' 'unsafe-eval' 'unsafe-inline' https://*.siteimprove.com; frame-src 'self' 'unsafe-eval' 'unsafe-inline' https://*.siteimprove.com; frame-ancestors 'self' https://*.siteimprove.com; upgrade-insecure-requests; block-all-mixed-content;"/>
+				</customHeaders>
+			</httpProtocol>
+		</system.webServer>
+	</location>
+</configuration>
