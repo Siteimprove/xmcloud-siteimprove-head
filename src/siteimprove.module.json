@@ -3,15 +3,15 @@
   "namespace": "Siteimprove",
   "items": {
     "includes": [
-      {
-        "name": "Siteimprove System Settings",
-        "path": "/sitecore/system/Modules/Siteimprove",
+	  {
+        "name": "Siteimprove Templates",
+        "path": "/sitecore/templates/System/Siteimprove Module",
         "database": "master",
         "allowedPushOperations": "CreateOnly"
       },
       {
-        "name": "Siteimprove Templates",
-        "path": "/sitecore/templates/System/Siteimprove Module",
+        "name": "Siteimprove System Settings",
+        "path": "/sitecore/system/Modules/Siteimprove",
         "database": "master",
         "allowedPushOperations": "CreateOnly"
       },
@@ -42,9 +42,9 @@
     ]
   },
   "roles": [
-      {
-        "domain": "sitecore",
-        "pattern": "Siteimprove Manager"
-      }
-    ]
-  }
+	{
+		"domain": "sitecore",
+		"pattern": "Siteimprove Manager"
+	}
+  ]
+}

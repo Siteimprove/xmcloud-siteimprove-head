@@ -9,7 +9,7 @@ SharedFields:
   Value: 
 - ID: "641c597f-4064-49dc-9384-eb3fa9ae0a27"
   Hint: DisableSiteimproveInEE
-  Value: 1
+  Value: 
 - ID: "9c6106ea-7a5a-48e2-8cad-f0f693b1e2d4"
   Hint: __Read Only
   Value: 
@@ -32,14 +32,14 @@ Languages:
       Value: 20170214T131835
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "e282bb42-8099-47fc-932d-20af413f84d7"
+      Value: "87c72cf1-73be-4cda-92ad-8d3c128c2a1d"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
-        sitecore\anthony_johnson@epam.com
+        sitecore\admin
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20240425T154243Z
+      Value: 20240527T063010Z
     - ID: "dc7b73b5-c692-4595-b193-95095d22f5ac"
       Hint: Sites
-      Value: ""
+      Value: "{B0AFF02B-8F55-4643-BED9-7F651E0454B3}"
